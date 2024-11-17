@@ -1,0 +1,7 @@
+/*:root {}*/
+
+.wf-design-mode .navbar_component.is-open .navbar_dropdown-panel {
+    display: block;
+    visibility: visible;
+    height: auto;
+}

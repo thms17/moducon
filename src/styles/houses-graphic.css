@@ -1,0 +1,11 @@
+.buildings-graphic_component::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2rem; /* 1rem in jede Richtung */
+  height: 2rem;
+  border-radius: 50%;
+  background-color: transparent; /* Unsichtbar */
+}

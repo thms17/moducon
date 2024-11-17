@@ -1,0 +1,21 @@
+@media (max-width: 478px) {
+    .formular_input.w-input {
+        font-size: 1.1rem
+    }
+}
+
+@media (min-width: 479px) {
+    .formular_input.w-input {
+        font-size: 1.2rem
+    }
+}
+
+@media (min-width: 768px) {
+    .formular_input.w-input {
+        font-size: 1.3rem
+    }
+}
+
+.formular_input.w-input {
+    background-color: rgb(25, 52, 64, .19); 
+}

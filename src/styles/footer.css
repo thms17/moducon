@@ -1,0 +1,5 @@
+.footer-wrapper {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: opacity, transform;
+}

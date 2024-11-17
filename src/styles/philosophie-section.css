@@ -1,0 +1,31 @@
+.philosophie_text-box {
+  position: relative;
+  z-index: 1; /* Stellt sicher, dass alle Textboxen vor dem Hintergrund erscheinen */
+}
+
+/* Spezifisches ::before-Element für Textboxen */
+.philosophie_text-box.background-element::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50vw; /* Positioniert das before-Element vom linken Rand des Viewports */
+  height: 100%;
+  width: 200vw; /* Nimmt die volle Breite des Viewports ein */
+  background-color: var(--dunkelblau);
+  z-index: -1; /* Hintergrund liegt hinter den Textboxen */
+  pointer-events: none; /* Verhindert, dass das before-Element interaktiv ist */
+}
+
+@media (max-width: 767px) {
+  .philosophie_text-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50vw; /* Positioniert das before-Element vom linken Rand des Viewports */
+    height: 100%;
+    width: 200vw; /* Nimmt die volle Breite des Viewports ein */
+    background-color: var(--dunkelblau);
+    z-index: -1; /* Hintergrund liegt hinter den Textboxen */
+    pointer-events: none; /* Verhindert, dass das before-Element interaktiv ist */
+  }
+}

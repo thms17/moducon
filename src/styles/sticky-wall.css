@@ -1,0 +1,4 @@
+.sticky-wall_image-wrap,
+.sticky-wall_arrow-and-text {
+  will-change: opacity, transform;
+}

@@ -24,8 +24,9 @@ function initNavbar() {
     !mobileTrigger ||
     !navButtonCloseImage ||
     staggerItems.length === 0
-  )
+  ) {
     return;
+  }
 
   const mm = gsap.matchMedia();
   const breakpoint = 768;

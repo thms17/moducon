@@ -4,7 +4,7 @@ import './styles/contact-form.css';
 import './styles/houses-graphic.css';
 import './styles/team-section.css';
 import './styles/philosophie-section.css';
-import './styles/navbar.css';
+// import './styles/navbar.css';
 import './styles/circle-pulse.css';
 import './styles/sticky-wall.css';
 import './styles/buildings-image.css';
